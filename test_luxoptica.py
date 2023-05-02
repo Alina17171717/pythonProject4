@@ -1,6 +1,12 @@
 from time import sleep
 from selene import have, be
 from selene.support.shared import browser
+# from selene import Config
+# from selene import Browser
+# config = Config()
+# config.browser_name = "firefox"
+# browser = Browser(config=config)
+
 
 def test_luxoptica():
       browser.open('https://luxoptica.ua/')
